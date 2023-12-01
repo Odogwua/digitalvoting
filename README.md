@@ -1,4 +1,4 @@
-_GrandVote Decentralized Blockchain Voting App_:
+_Digitalvoting Decentralized Blockchain Voting App_:
 This is a decentralized blockchain voting app built using Solidity and the Ethereum blockchain. The app allows voters to cast their votes securely and transparently without the need for intermediaries such as election officials or third-party vote counters. The app is built on the Ethereum blockchain, which ensures that the results of the election are immutable and tamper-proof.
 
 _Functios in the smart contact_:
@@ -30,15 +30,12 @@ _Getting Started_:
 To run the app, you need to have an Ethereum wallet such as MetaMask and an Ethereum network such as Mumbai.
 
 Clone the repository:
-git clone https://github.com/sammydrake/grandvote.git
-cd grandvote
+git clone https://github.com/Odogwua/digitalvoting.git
+cd digitalvoting
 Install the required dependencies using npm install
 Deploy the smart contract to the Ethereum network of your choice using a tool such as Remix or Hardhat(npx hardhat run scripts/deploy.js --network mumbai)
 Copy the contract address and ABI into the contractAddress.js file.
 Start the app using npm run dev
-
-_live link_:
-https://grandvote.vercel.app/
 
 _Features_:
 Secure and transparent voting process
@@ -55,4 +52,4 @@ _License_:
 The project is licensed under the MIT License. See LICENSE for more information.
 
 _Credits_:
-The app was built by me(Samson)
+The app was built by me(Odogwu)
